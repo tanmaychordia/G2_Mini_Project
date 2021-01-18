@@ -1,0 +1,56 @@
+table th {
+   text-align: center; 
+}
+
+.table {
+   margin: auto;
+   margin-top: 3%;
+   width: 60%; 
+}
+
+body{
+  height: 100%;
+  margin: 0;
+}
+header{
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  
+  .mobile thead {
+    
+    height: 1%;
+    overflow: hidden;
+    position: absolute;
+    width: 1%;
+  }
+  
+  .mobile tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    /* margin-bottom: .625em; */
+  }
+  
+  .mobile td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+     text-align: right; 
+  }
+  table td::before {
+    
+     content: attr(data-label);
+     float: left;
+     font-weight: bold;
+     text-transform: uppercase;
+   }
+    
+}

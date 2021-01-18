@@ -1,0 +1,90 @@
+
+table{
+    display: block !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+    background-color: black;
+
+  }
+h1 { 
+    text-align: center; 
+    color: #e2e4e2; 
+    font-size: xx-large; 
+    font-family: 'Gill Sans',  
+        'Gill Sans MT', ' Calibri',  
+        'Trebuchet MS', 'sans-serif'; 
+} 
+
+td { 
+  
+    font-size: .85rem;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden;      
+} 
+
+th       { 
+    font-weight: bold; 
+    background-color: #10141b; 
+    border: 1px solid black; 
+    padding: 10px; 
+    color:white;    
+    text-align: center; 
+} 
+
+td { 
+    font-weight: lighter; 
+} 
+
+.main {
+    width: 20%;
+    /* margin-top: 1% ; */
+    float: right;
+
+}
+.table-container{
+    padding-top: 4%;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.myForm{
+    padding: 2%;
+    
+}
+.table-container {
+    padding-top: 4%;
+    overflow-x: scroll;
+}
+
+.table-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media all  and (max-width:600px){
+
+    .main {
+        width: 100%;
+        margin: 50px auto;
+         
+    }
+    
+
+
+}

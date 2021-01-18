@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(16,20,27,0),rgba(16,20,27,0) 45%,#10141b 90%);
+    background-color:rgb(36, 38,51);
+}
+.user-tab{
+    width: 50%;
+    background-color : rgb(33, 36, 55) ;
+    color: white;
+}
+.admin-tab{
+    background-color:#181d24 ;
+    width: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+.user-panel{
+    background-color:rgb(36,38,51) ;
+}
+.admin-panel{
+    background-color: #181d24 ;
+}
+.btn-login-form{
+    margin-left: 4%;
+    width: 20%;
+    cursor: pointer;
+    background-color:#6c19e0;
+    color: white;
+    transition: 0.2s;
+    font-family: "Poppins",sans-serif;
+    overflow: hidden;
+}
+.btn-login-form:hover {
+    background-position: right center;
+    background-color:#8e54de;
+    color: white;
+  } 
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active , a.nav-link, .forgotPass{
+      background-color: inherit; 
+      border-color: inherit;
+      color: white;
+      display: block;
+      border: none;
+  }
+  .peopleCarouselImg img {
+    width: auto;
+    height: 200px;
+    max-height: 200px;
+  }
+  /* .peopleCarouselImg{
+    font-size:5vw;
+  } */
+  footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+  }
+
+.controls-top{
+    text-align: center;
+}
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
+}
+
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
+}
+
+.counter-box.colored {
+    background: #3acf87
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }
+
+  @media screen and (max-width: 460px){
+    #banner-img{
+        display: none;
+    }
+  }
+
+  .failed{
+      border-width: 5px;
+      border-color: red;
+  }
+ 

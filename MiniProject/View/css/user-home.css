@@ -1,0 +1,90 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    background-image: linear-gradient(rgba(16,20,27,0),rgba(16,20,27,0) 45%,#10141b 90%);
+    background-color:rgb(36, 38,51);
+}
+.peopleCarouselImg img {
+    width: auto;
+    height: 200px;
+    max-height: 200px;
+  }
+button{
+    background-color: #6c19e0;
+}
+
+button:hover {
+    background-color: #8e54de;
+}
+
+.card{
+    height: 365px;
+}
+.respbutton {
+    min-width: 100%;
+    text-align: left;
+}
+
+.card-transition, .card-transition > img, .card-transition > h3 , .card-transition > h4 > button {
+    transition: all .8s;
+    transition-timing-function: linear;
+
+}
+.card-transition > h4 > button {
+    display: none;  /*button hidden*/
+
+}
+
+
+.card-transition:hover, .card-transition:hover > img, .card-transition:hover > h3 , .card-transition:hover > h4 > button {
+    transform: rotateY(180deg);
+}
+
+.card-transition:hover > h4 > button {
+    display: inline;  /*button hidden*/
+
+}
+
+.charts {
+    padding: 1em 2% 1em 2%;
+}
+
+.ename{
+    padding-top: 5%;
+}
+
+@media all and (max-width: 480px){
+    .peopleCarouselImg img {
+        width: auto;
+        height: 150px;
+        max-height: 100px;
+      }
+      .card{
+        margin-left: 15%;
+        width: 70%;
+        height: 250px;
+    }
+    .hide{
+        display:none;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 600px){
+    .peopleCarouselImg img {
+        width: auto;
+        height: 100px;
+        max-height: 100px;
+      }
+      .card{
+        margin-left: 10%;
+        width: 80%;
+        height: 250px;
+    }
+    .hide{
+        display:none;
+    }
+    .ename{
+        font-size: medium;
+    }
+}

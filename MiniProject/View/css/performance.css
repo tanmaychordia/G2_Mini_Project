@@ -1,0 +1,20 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.peopleCarouselImg img {
+    width: auto;
+    height: 200px;
+    max-height: 200px;
+  }
+.button{
+    background-color: #6c19e0;
+}
+
+.button:hover {
+    background-color: #8e54de;
+}
+/* .charts {
+    padding: 1em 2% 1em 2%;
+} */
+.chartdiv {
+    max-width: 80%;
+    min-height: 100%;
+}

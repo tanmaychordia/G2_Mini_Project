@@ -1,0 +1,25 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+  body, html {
+    height:100%;
+    font-family:'Poppins', cursive;
+    color: black;
+  }
+  
+    #main_background{
+    background-color:white;
+    padding: 2%;
+    color: black;
+    }
+ 
+    .formmodal{
+      padding: 2%;
+    }
+
+   .quizimage img {
+      width: 100%;
+      height: 200px;
+      max-height: 200px;
+        
+    }

@@ -1,0 +1,16 @@
+section {
+    min-height: 60vh;
+}
+
+footer {
+    max-height: 15vh;
+    min-height: 20vh;
+}
+
+.lead a {
+    background-color: #6c19e0;
+}
+
+.lead a:hover {
+    background-color: #8e54de;
+}
